@@ -64,11 +64,41 @@ LESSON_DATA = {
         {"target": "I want to visit Vietnam.", "desc": "[예문]"},
         {"target": "France", "desc": "[명사] A country in Europe. (유럽에 있는 나라)"},
         {"target": "She is from France.", "desc": "[예문]"}
+    ],
+    "Lesson 2: What Are These?": [
+        {"target": "album", "desc": "[명사] A book where you keep photographs. (사진을 보관하는 책)"},
+        {"target": "Look at this photo album.", "desc": "[예문]"},
+        {"target": "button", "desc": "[명사] A small, round thing on clothes to close them. (옷을 여미기 위해 있는 작고 둥근 것)"},
+        {"target": "My shirt has five buttons.", "desc": "[예문]"},
+        {"target": "collect", "desc": "[동사] To bring things together in one place. (물건들을 한 곳에 모으다)"},
+        {"target": "I collect old coins.", "desc": "[예문]"},
+        {"target": "cut", "desc": "[동사] To make something into pieces using scissors or a knife. (가위나 칼을 사용해 무언가를 조각내다/자르다)"},
+        {"target": "Please cut the paper.", "desc": "[예문]"},
+        {"target": "fork", "desc": "[명사] A tool used for eating food like spaghetti. (스파게티 같은 음식을 먹을 때 사용하는 도구)"},
+        {"target": "I eat salad with a fork.", "desc": "[예문]"},
+        {"target": "kitchen", "desc": "[명사] A room where you cook food. (음식을 요리하는 방)"},
+        {"target": "My mom is in the kitchen.", "desc": "[예문]"},
+        {"target": "late", "desc": "[형용사] Coming after the right or usual time. (알맞은 시간이나 평소보다 뒤에 오는)"},
+        {"target": "Hurry up! We are late for school.", "desc": "[예문]"},
+        {"target": "map", "desc": "[명사] A picture that shows where places are. (장소가 어디 있는지 보여주는 그림)"},
+        {"target": "Let's look at the world map.", "desc": "[예문]"},
+        {"target": "scissors", "desc": "[명사] A tool with two sharp parts used for cutting paper. (종이를 자르는 데 사용되는 두 개의 날카로운 부분이 있는 도구)"},
+        {"target": "I cut the paper with my scissors.", "desc": "[예문]"},
+        {"target": "spoon", "desc": "[명사] A tool used for eating soup. (국을 먹을 때 사용하는 도구)"},
+        {"target": "I need a spoon for my soup.", "desc": "[예문]"},
+        {"target": "they", "desc": "[대명사] Those people, animals, or things. (그 사람들, 동물들, 또는 것들)"},
+        {"target": "They are my good friends.", "desc": "[예문]"},
+        {"target": "these", "desc": "[대명사] The things or people that are near you. (당신 가까이에 있는 것들이나 사람들)"},
+        {"target": "What are these? These are apples.", "desc": "[예문]"},
+        {"target": "those", "desc": "[대명사] The things or people that are far from you. (당신에게서 멀리 있는 것들이나 사람들)"},
+        {"target": "Look at those birds.", "desc": "[예문]"},
+        {"target": "have", "desc": "[동사] To keep or hold something as your own. (무언가를 자신의 것으로 유지하거나 가지다)"},
+        {"target": "I have two brothers.", "desc": "[예문]"}
     ]
 }
 
-# Add placeholders for Lesson 2 to 12
-for i in range(2, 13):
+# Add placeholders for Lesson 3 to 12
+for i in range(3, 13):
     LESSON_DATA[f"Lesson {i}"] = []
 
 # --- UTIL FUNCTIONS ---
